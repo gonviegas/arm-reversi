@@ -1,6 +1,6 @@
 # ARM - C  
 ## Reversi game
-###The main objective is to implement a version of the well-known classic game Reversi for the STM32F769i Discovery board in C. 
+### The main objective is to implement a version of the well-known classic game Reversi for the STM32F769i Discovery board in C. 
 The game state should be shown on the LCD. The touch screen must be used by each player to indicate his move. The SD-Card will be used to store the game’s results. Each player has a timeout to play. Additionally, the internal temperature should be shown on the LCD and updated periodically. The update rates of clocks and acquisitions must be controlled by Timers and the use of Interrupts is mandatory.  
 
 - Read the ARM internal temperature and show it in the LCD. The temperature information should be kept visible at all time in one of the LCD corners and updated every 2 seconds. 
